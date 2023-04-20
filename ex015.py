@@ -1,0 +1,5 @@
+print("--------------aluguel de carrosl----------------")
+dias = int(input("Por quantos dias o carro foi alugado? "))
+km = int(input("Quantos km foram percorridos com o carro? "))
+soma = (dias * 60) + (0.15 * km)
+print("O valor final será de {:.2f}".format(soma))
